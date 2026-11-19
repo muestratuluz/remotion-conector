@@ -1,0 +1,15 @@
+{
+  "name": "remotion-conector",
+  "version": "1.0.0",
+  "description": "Servidor MCP remoto (HTTP) con la documentación de Remotion, para usar como conector personalizado en claude.ai",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "zod": "4.5.4"
+  }
+}
